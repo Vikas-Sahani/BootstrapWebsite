@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- NavBar start -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Vikas</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- m-lg-auto= margin for large devices -->
+                        <ul class="navbar-nav me-auto m-lg-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="service.html">Services </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-warning" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- NavBar ended -->
+
+        <!-- Crasual for slider -->
+        <section>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="d-block w-100" alt="Delhi">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Delhi India Gate</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/Div/AmazingWebsite/Images/Lotus.jpeg" class="d-block w-100" alt="Lotus">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="color:rgb(12, 127, 98)">Lotus Temple</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Div/AmazingWebsite/Images/Mumbai.jpeg" class="d-block w-100" alt="Mumbai">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Mumbai Heera Nandani</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Casual slider is completed -->
+    </header>
+    <!-- header is completed -->
+
+    <!-- About section is started -->
+    <!--my-5= margin y-axis  -->
+    <section class="main-about my-5">
+        <div class="text-center">
+            <h1>About us</h1>
+            <hr w-35 />
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xxl-6 col-12">
+                    <figure><img class="img-fluid" src="/Div/AmazingWebsite/Images/Delhi.jpeg" alt="Delhi"></figure>
+                </div>
+                <div
+                    class="col-lg-6 col-md-6 col-xxl-6 col-12 d-flex justify-content-center align-item-start flex-column">
+                    <h1>Vikas ki jarni</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iusto, mollitia temporibus
+                        dolores
+                        ipsam quam illo adipisci quod, ad possimus sapiente vero aperiam maiores ullam praesentium
+                        consectetur! Accusantium, dignissimos laborum?
+                    </p>
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip">Check More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About us completed -->
+
+    <!-- Services started -->
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center pt-5">Services</h1>
+            <!-- mx= margin from x-axis -->
+            <hr w-25 mx-auto />
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="card-img-top img-fluid" alt="Delhi">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">abcjsdkjfa</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <img src="/Div/AmazingWebsite/Images/Lotus.jpeg" class="card-img-top img-fluid" alt="Lotus">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">abcjsdkjfa</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <img src="/Div/AmazingWebsite/Images/Mumbai.jpeg" class="card-img-top img-fluid" alt="Mumbai">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">abcjsdkjfa</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Section us completed -->
+
+     <!-- Gallery started -->
+     <section class="my-5">
+        <div class="text-center">
+            <!-- font-size = display -->
+            <h1 class="display-4">Gallery</h1>
+            <hr w-25/>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-12">
+                    <figure><img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="img-fluid" alt=""></figure>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <figure><img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="img-fluid" alt=""></figure>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <figure><img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="img-fluid" alt=""></figure>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <figure><img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="img-fluid" alt=""></figure>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <figure><img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="img-fluid" alt=""></figure>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <figure><img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="img-fluid" alt=""></figure>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <figure><img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="img-fluid" alt=""></figure>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <figure><img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="img-fluid" alt=""></figure>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <figure><img src="/Div/AmazingWebsite/Images/Delhi.jpeg" class="img-fluid" alt=""></figure>
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+        <!-- Contact Us  section start from here -->
+    <section>
+        <div class="text-center display-4 my-5">
+        <h1>Contact Us</h1>
+        <hr class="w-35 mx-auto" />
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-xxl-8 col-10 col-md-8  mx-auto">
+            <form>
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Enter Your Name :</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+                </div>
+                <div class="mb-3">
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Select city</option>
+                    <option value="1">Mumbai</option>
+                    <option value="2">Delhi</option>
+                    <option value="3">Pune</option>
+                    <option value="4">Noida</option>
+                    <option value="5">Bengluru</option>
+                </select>
+                </div>
+                <div class="mb-3">
+                <label for="label" class="p-md-4">Gender</label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Other</label>
+                </div>
+    
+                </div>
+                <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">write your opinion</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary ">Submit</button>
+            </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Contact Us  section end from here -->
+
+
+    <!-- footer start here -->
+    <footer class="text-center text-white bg-dark">
+        <p>@copyright Rahul.kannaujia@gmail.com 2021</p>
+    </footer>
+    <!-- footer End here -->
+</body>
+</html>
