@@ -5,3 +5,5 @@
 ![image](https://user-images.githubusercontent.com/102462411/168269228-0ea40a06-ea62-4f56-866e-39d936694d77.png)
 ![image](https://user-images.githubusercontent.com/102462411/168269249-db9e305f-5e84-4678-b285-74757f16a1e8.png)
 
+# netlify link
+https://app.netlify.com/sites/superb-chebakia-342a87/deploys/
